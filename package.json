@@ -1,0 +1,49 @@
+{
+  "name": "sih-semantic-release-config",
+  "version": "0.0.0",
+  "description": "Plugin/Config for SIH flavoured semantic release",
+  "main": "release.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once --pro"
+  },
+  "author": "Julius Zeidler <julius.zeidler@starfinanz.de>",
+  "license": "MIT",
+  "release": {
+    "verifyConditions": [
+      "@semantic-release/changelog",
+      "@semantic-release/git",
+      "@semantic-release/github"
+    ],
+    "prepare": [
+      "@semantic-release/changelog",
+      "@semantic-release/git"
+    ],
+    "publish": [
+      {
+        "path": "@semantic-release/git",
+        "assets": [
+          "package.json",
+          "npm-shrinkwrap.json"
+        ]
+      },
+      {
+        "path": "@semantic-release/github"
+      }
+    ]
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0",
+    "semantic-release": "^12.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github:sparkassen-hub/sih-semantic-release-conifg.git"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
