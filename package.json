@@ -43,7 +43,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github:sparkassen-hub/sih-semantic-release-conifg.git"
+    "url": "github:sparkassen-hub/sih-semantic-release-config.git"
   },
   "config": {
     "commitizen": {
