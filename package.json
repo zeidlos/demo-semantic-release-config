@@ -25,13 +25,6 @@
     ],
     "publish": [
       {
-        "path": "@semantic-release/git",
-        "assets": [
-          "CHANGELOG.md",
-          "package.json"
-        ]
-      },
-      {
         "path": "@semantic-release/github"
       }
     ]
