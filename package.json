@@ -17,15 +17,18 @@
       "@semantic-release/github"
     ],
     "prepare": [
-      "@semantic-release/changelog",
+      {
+        "path": "@semantic-release/changelog",
+        "changelogFile": "Changelog.md"
+      },
       "@semantic-release/git"
     ],
     "publish": [
       {
         "path": "@semantic-release/git",
         "assets": [
-          "package.json",
-          "npm-shrinkwrap.json"
+          "Changelog.md",
+          "package.json"
         ]
       },
       {
