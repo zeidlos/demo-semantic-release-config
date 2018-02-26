@@ -5,17 +5,17 @@ module.exports = {
     "@semantic-release/github"
   ],
   "prepare": [
-    "@semantic-release/changelog",
+    {
+      "path": "@semantic-release/changelog",
+      "changelogFile": "CHANGELOG.md"
+    },
+    {
+      "path": "@semantic-release/npm",
+      "npmPublish": false
+    },
     "@semantic-release/git"
   ],
   "publish": [
-    {
-      "path": "@semantic-release/git",
-      "assets": [
-        "package.json",
-        "npm-shrinkwrap.json"
-      ]
-    },
     {
       "path": "@semantic-release/github"
     }
