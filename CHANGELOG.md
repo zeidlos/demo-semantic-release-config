@@ -1,3 +1,11 @@
+<a name="1.4.1"></a>
+## [1.4.1](https://github.com/sparkassen-hub/sih-semantic-release-config/compare/v1.4.0...v1.4.1) (2018-02-27)
+
+
+### Bug Fixes
+
+* Now includes [@semantic-release](https://github.com/semantic-release)/npm plugin as dependency. ([26a5007](https://github.com/sparkassen-hub/sih-semantic-release-config/commit/26a5007))
+
 <a name="1.4.0"></a>
 # [1.4.0](https://github.com/sparkassen-hub/sih-semantic-release-config/compare/v1.3.1...v1.4.0) (2018-02-26)
 
