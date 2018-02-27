@@ -1,3 +1,11 @@
+<a name="1.5.1"></a>
+## [1.5.1](https://github.com/sparkassen-hub/sih-semantic-release-config/compare/v1.5.0...v1.5.1) (2018-02-27)
+
+
+### Bug Fixes
+
+* Remove unused js file ([4bd8a78](https://github.com/sparkassen-hub/sih-semantic-release-config/commit/4bd8a78))
+
 <a name="1.5.0"></a>
 # [1.5.0](https://github.com/sparkassen-hub/sih-semantic-release-config/compare/v1.4.1...v1.5.0) (2018-02-27)
 
