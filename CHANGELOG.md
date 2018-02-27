@@ -1,3 +1,12 @@
+<a name="1.5.0"></a>
+# [1.5.0](https://github.com/sparkassen-hub/sih-semantic-release-config/compare/v1.4.1...v1.5.0) (2018-02-27)
+
+
+### Features
+
+* Foo is Bar ([8116bb7](https://github.com/sparkassen-hub/sih-semantic-release-config/commit/8116bb7))
+* Foo is Bar ([5e3d498](https://github.com/sparkassen-hub/sih-semantic-release-config/commit/5e3d498))
+
 <a name="1.4.1"></a>
 ## [1.4.1](https://github.com/sparkassen-hub/sih-semantic-release-config/compare/v1.4.0...v1.4.1) (2018-02-27)
 

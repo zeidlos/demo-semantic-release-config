@@ -1,6 +1,6 @@
 {
   "name": "sih-semantic-release-config",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "description": "Plugin/Config for SIH flavoured semantic release",
   "main": "release.config.js",
   "scripts": {
