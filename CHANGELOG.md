@@ -1,3 +1,11 @@
+<a name="1.6.0"></a>
+# [1.6.0](https://github.com/sparkassen-hub/sih-semantic-release-config/compare/v1.5.2...v1.6.0) (2018-03-14)
+
+
+### Features
+
+* Adds editorconfig to project ([aafb867](https://github.com/sparkassen-hub/sih-semantic-release-config/commit/aafb867))
+
 <a name="1.5.2"></a>
 ## [1.5.2](https://github.com/sparkassen-hub/sih-semantic-release-config/compare/v1.5.1...v1.5.2) (2018-02-27)
 
