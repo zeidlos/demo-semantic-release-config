@@ -11,17 +11,16 @@ npm install -g cz-conventional-changelog
 ## Installing Requirements into a fresh project
 * Create a `package.json` if there is none yet.
 * Initialize commitizen `commitizen init cz-conventional-changelog --save-dev --save-exact`
-* Install the semantic-release-config `npm i --save-dev sparkassen-hub/sih-semantic-release-config`
+* Install the semantic-release-config `npm i --save-dev zeidlos/demo-semantic-release-config`
 * Add the following lines to your `package.json` scripts section: 
 ```
 "semantic-release": "semantic-release -e sih-semantic-release-config",
-"travis-deploy-once": "travis-deploy-once --pro"
+"travis-deploy-once": "travis-deploy-once"
 ```
 * Add the `.travis.yml` from this project to your project.
 * Add the `.editorconfig` from this project to your project.
 
-* Now you have to generate a GH_Token and add it to the Travis project.
-* Possibly you'd also have to add an SSH Key to the Travis project.
+* Now you have to generate a `GH_Token` and add it to the Travis project.
 * Most likley you'd have to enable the Travis Project as well.
 
 In the future we might automate most of these steps. ;)
