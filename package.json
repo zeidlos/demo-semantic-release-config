@@ -1,6 +1,6 @@
 {
   "name": "demo-semantic-release-config",
-  "version": "1.6.0",
+  "version": "1.0.0",
   "description": "Plugin/Config for non npm semantic release",
   "main": "release.config.js",
   "scripts": {
