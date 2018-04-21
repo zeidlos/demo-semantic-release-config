@@ -1,12 +1,12 @@
 {
-  "name": "sih-semantic-release-config",
+  "name": "demo-semantic-release-config",
   "version": "1.6.0",
-  "description": "Plugin/Config for SIH flavoured semantic release",
+  "description": "Plugin/Config for non npm semantic release",
   "main": "release.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
     "semantic-release": "semantic-release",
-    "travis-deploy-once": "travis-deploy-once --pro"
+    "travis-deploy-once": "travis-deploy-once"
   },
   "author": "Julius Zeidler <julius.zeidler@starfinanz.de>",
   "license": "MIT",
@@ -44,7 +44,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github:sparkassen-hub/sih-semantic-release-config.git"
+    "url": "github:zeidlos/demo-semantic-release-config.git"
   },
   "config": {
     "commitizen": {
