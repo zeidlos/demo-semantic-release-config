@@ -35,12 +35,12 @@
   },
   "dependencies": {
     "@semantic-release/changelog": "2.x",
-    "@semantic-release/git": "4.x",
-    "@semantic-release/github": "^4.2.3",
+    "@semantic-release/git": "11.x",
+    "@semantic-release/github": "^12.0.10",
     "@semantic-release/npm": "^3.2.0",
     "cz-conventional-changelog": "^2.1.0",
-    "semantic-release": "15.x",
-    "travis-deploy-once": "^4.3.4"
+    "semantic-release": "19.x",
+    "travis-deploy-once": "^5.0.11"
   },
   "repository": {
     "type": "git",
