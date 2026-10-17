@@ -37,7 +37,7 @@
     "@semantic-release/changelog": "7.x",
     "@semantic-release/git": "11.x",
     "@semantic-release/github": "^12.0.10",
-    "@semantic-release/npm": "^3.2.0",
+    "@semantic-release/npm": "^3.4.1",
     "cz-conventional-changelog": "^2.1.0",
     "semantic-release": "25.x",
     "travis-deploy-once": "^5.0.11"
